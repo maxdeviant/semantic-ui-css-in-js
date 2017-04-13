@@ -4,6 +4,7 @@
   "description": "CSS-in-JS for Semantic UI",
   "main": "index.js",
   "scripts": {
+    "build": "tsc -p .",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -15,5 +16,11 @@
   "bugs": {
     "url": "https://github.com/maxdeviant/semantic-ui-cjs/issues"
   },
-  "homepage": "https://github.com/maxdeviant/semantic-ui-cjs#readme"
+  "homepage": "https://github.com/maxdeviant/semantic-ui-cjs#readme",
+  "dependencies": {
+    "glamor": "^2.20.24"
+  },
+  "devDependencies": {
+    "typescript": "^2.2.2"
+  }
 }
