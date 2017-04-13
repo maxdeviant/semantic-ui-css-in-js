@@ -1,8 +1,10 @@
 import { stripUnit } from 'polished';
+import {
+  pageFont
+} from '../globals';
 
 // Begin extract
 const inputVerticalPadding = '';
-const pageFont = '';
 const defaultBorderRadius = '';
 const borderColor = '';
 // End extract

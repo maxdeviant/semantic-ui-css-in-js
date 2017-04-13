@@ -1,1 +1,1 @@
-export { default as Button } from './styles/elements/button';
+export { default as Button } from './styles/elements/Button';
