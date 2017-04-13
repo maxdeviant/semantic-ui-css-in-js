@@ -1,4 +1,4 @@
-# semantic-ui-cjs
+# semantic-ui-css-in-js
 CSS-in-JS for Semantic UI
 
 ## Inspiration
