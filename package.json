@@ -18,7 +18,8 @@
   },
   "homepage": "https://github.com/maxdeviant/semantic-ui-cjs#readme",
   "dependencies": {
-    "glamor": "^2.20.24"
+    "glamor": "^2.20.24",
+    "polished": "^1.0.2"
   },
   "devDependencies": {
     "typescript": "^2.2.2"
