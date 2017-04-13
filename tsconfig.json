@@ -12,5 +12,10 @@
     "rootDir": "src/",
     "strictNullChecks": true,
     "target": "es5"
-  }
+  },
+  "exclude": [
+    "node_modules/",
+    "lib/",
+    "index.d.ts"
+  ]
 }
