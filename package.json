@@ -18,6 +18,11 @@
     "url": "https://github.com/maxdeviant/semantic-ui-css-in-js/issues"
   },
   "homepage": "https://github.com/maxdeviant/semantic-ui-css-in-js#readme",
+  "files": [
+    "lib/",
+    "index.js",
+    "index.d.ts"
+  ],
   "dependencies": {
     "glamor": "^2.20.24",
     "polished": "^1.0.2"
