@@ -224,9 +224,9 @@ export const selectedSolidWhiteBorderColor = '#999999';
 // Exact Pixel Values
 
 export function pixelsToRem(pixels: number) {
-  return rem(pixels / emSize);
+  return rem(pixels, emSize);
 }
 
 export function pixelsToEm(pixels: number) {
-  return em(pixels / emSize);
+  return em(pixels, emSize);
 }
