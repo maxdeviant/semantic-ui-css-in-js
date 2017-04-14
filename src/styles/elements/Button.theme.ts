@@ -1,13 +1,10 @@
 import { stripUnit } from 'polished';
 import {
+  borderColor,
   defaultBorderRadius,
   inputVerticalPadding,
   pageFont
 } from '../globals';
-
-// Begin extract
-const borderColor = '';
-// End extract
 
 export const verticalMargin = '0em';
 export const horizontalMargin = '0.25em';
