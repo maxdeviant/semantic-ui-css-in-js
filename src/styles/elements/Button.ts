@@ -27,17 +27,30 @@ export default (theme = ButtonTheme) => {
     textDecoration: 'none',
 
     borderRadius: theme.borderRadius,
-    // boxShadow: theme.boxShadow,
+    boxShadow: theme.boxShadow,
 
     userSelect: 'none',
-    // transition: theme.transition,
-    // willChange: theme.willChange,
+    transition: theme.transition,
+    willChange: theme.willChange,
 
     WebkitTapHighlightColor: theme.tapColor
   };
 
+  const hover = {
+    backgroundColor: theme.hoverBackgroundColor,
+    backgroundImage: theme.hoverBackgroundImage,
+    boxShadow: theme.hoverBoxShadow,
+    color: theme.hoverColor
+  };
+
+  const hoverIcon = {
+    opacity: theme.iconHoverOpacity
+  };
+
   return {
-    base
+    base,
+    hover,
+    hoverIcon
   };
 };
 

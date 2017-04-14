@@ -12,7 +12,7 @@ declare namespace Polished {
 
   function rem(pxval: string | number, base?: string | number): string;
 
-  function stripUnit(value: string): number | string;
+  function stripUnit(value: string): number;
 
 }
 
