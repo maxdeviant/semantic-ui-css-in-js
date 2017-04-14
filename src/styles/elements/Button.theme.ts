@@ -9,6 +9,7 @@ import {
   neutralColors,
   pageFont,
   pixelsToEm,
+  pressedTextColor,
   relativeTiny
 } from '../globals';
 export * from '../globals';
@@ -107,6 +108,17 @@ export const iconFocusOpacity = 0.85;
 
 export const disabledBackgroundImage = 'none';
 export const disabledBoxShadow = 'none';
+
+// Pressed Down
+
+export const downBackgroundColor = '#babbbc';
+export const downBackgroundImage = '';
+export const downPressedShadow = 'none';
+export const downBoxShadow = `
+  ${borderBoxShadow},
+  ${downPressedShadow}
+`;
+export const downColor = pressedTextColor;
 
 // Inverted
 

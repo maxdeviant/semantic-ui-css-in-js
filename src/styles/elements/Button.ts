@@ -42,6 +42,13 @@ export default (theme = ButtonTheme) => {
       backgroundImage: theme.hoverBackgroundImage,
       boxShadow: theme.hoverBoxShadow,
       color: theme.hoverColor
+    },
+
+    ':active': {
+      backgroundColor: theme.downBackgroundColor,
+      backgroundImage: theme.downBackgroundImage,
+      color: theme.downColor,
+      boxShadow: theme.downBoxShadow
     }
   };
 
