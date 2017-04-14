@@ -1,11 +1,11 @@
 import { stripUnit } from 'polished';
 import {
+  defaultBorderRadius,
+  inputVerticalPadding,
   pageFont
 } from '../globals';
 
 // Begin extract
-const inputVerticalPadding = '';
-const defaultBorderRadius = '';
 const borderColor = '';
 // End extract
 
@@ -32,5 +32,14 @@ export const verticalAlign = 'baseline';
 
 // Internal Shadow
 export const shadowDistance = '0em';
-export const shadowOffset = `${stripUnit(shadowDistance) / 2}em`;
+
+const calculateShadowOffset = (shadowDistance: string) => {
+  const strippedShadowDistance = stripUnit(shadowDistance);
+  if (typeof strippedShadowDistance === 'number') {
+    return `${strippedShadowDistance / 2}em`;
+  }
+  return strippedShadowDistance;
+};
+
+export const shadowOffset = calculateShadowOffset(shadowDistance);
 export const shadowBoxShadow = `0px -${shadowDistance} 0px 0px ${borderColor} inset`;
