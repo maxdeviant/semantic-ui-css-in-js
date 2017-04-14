@@ -1,3 +1,7 @@
+/**
+ * Sizes are all expressed in terms of 14px/em (default em).
+ * This ensures these "ratios" remain constant despite changes in em.
+ */
 export const sizes = {
   mini: 11 / 14,
   tiny: 12 / 14,
