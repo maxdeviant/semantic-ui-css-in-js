@@ -1,20 +1,16 @@
 import { stripUnit } from 'polished';
 import {
-  neutralColors
-} from '../colors';
-import {
   borderColor,
   defaultBorderRadius,
   defaultDuration,
   defaultEasing,
   hoveredTextColor,
   inputVerticalPadding,
+  neutralColors,
   pageFont,
   pixelsToEm,
   relativeTiny
 } from '../globals';
-
-export * from '../colors';
 export * from '../globals';
 
 // Button
