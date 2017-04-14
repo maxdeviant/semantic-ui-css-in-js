@@ -1,13 +1,13 @@
 import {
-  em,
-  rem
-} from 'polished';
+  pixelsToEm,
+  pixelsToRem
+} from './exact-pixel-values';
 
 export const headerFontWeight = 'bold';
-export const headerLineHeight = em(18 / 14);
+export const headerLineHeight = pixelsToEm(18);
 
-export const h1 = rem(28 / 14);
-export const h2 = rem(24 / 14);
-export const h3 = rem(18 / 14);
-export const h4 = rem(15 / 14);
-export const h5 = rem(14 / 14);
+export const h1 = pixelsToRem(28);
+export const h2 = pixelsToRem(24);
+export const h3 = pixelsToRem(18);
+export const h4 = pixelsToRem(15);
+export const h5 = pixelsToRem(14);
