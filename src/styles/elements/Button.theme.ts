@@ -1,5 +1,8 @@
 import { stripUnit } from 'polished';
 import {
+  neutralColors
+} from '../colors';
+import {
   borderColor,
   defaultBorderRadius,
   defaultDuration,
@@ -10,6 +13,9 @@ import {
   pixelsToEm,
   relativeTiny
 } from '../globals';
+
+export * from '../colors';
+export * from '../globals';
 
 // Button
 
@@ -105,3 +111,11 @@ export const iconFocusOpacity = 0.85;
 
 export const disabledBackgroundImage = 'none';
 export const disabledBoxShadow = 'none';
+
+// Inverted
+
+export const invertedBorderSize = '2px';
+export const invertedTextColor = neutralColors.white;
+export const invertedTextHoverColor = hoverColor;
+export const invertedGroupButtonOffset = `0px 0px 0px -${invertedBorderSize}`;
+export const invertedVerticalGroupButtonOffset = `0px 0px -${invertedBorderSize} 0px`;
