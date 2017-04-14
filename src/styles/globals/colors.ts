@@ -80,3 +80,58 @@ export const headerColors = {
 };
 
 export const borderColors = textColors;
+
+//
+// Alpha Colors
+//
+
+export const subtleTransparentBlack = 'rgba(0,0,0,.03)';
+export const transparentBlack = 'rgba(0,0,0,.05)';
+export const strongTransparentBlack = 'rgba(0,0,0,.10)';
+export const veryStrongTransparentBlack = 'rgba(0,0,0,.15)';
+
+export const subtleTransparentWhite = 'rgba(255,255,255,.02)';
+export const transparentWhite = 'rgba(255,255,255,.08)';
+export const strongTransparentWhite = 'rgba(255,255,255,.15)';
+
+//
+// Accents
+//
+
+// TODO: Add accents.
+
+//
+// Emotive Colors
+//
+
+// Positive
+
+export const positiveColor = colors.green;
+export const positiveBackgroundColor = '#fcfff5';
+export const positiveBorderColor = '#a3c293';
+export const positiveHeaderColor = '#1a531b';
+export const positiveTextColor = '#2c662d';
+
+// Negative
+
+export const negativeColor = colors.red;
+export const negativeBackgroundColor = '#fff6f6';
+export const negativeBorderColor = '#e0b4b4';
+export const negativeHeaderColor = '#912d2b';
+export const negativeTextColor = '#9f3a38';
+
+// Info
+
+export const infoColor = '#31ccec';
+export const infoBackgroundColor = '#f8ffff';
+export const infoBorderColor = '#a9d5de';
+export const infoHeaderColor = '#0e566c';
+export const infoTextColor = '#276f86';
+
+// Warning
+
+export const warningColor = '#f2c037';
+export const warningBorderColor = '#c9ba9b';
+export const warningBackgroundColor = '#fffaf3';
+export const warningHeaderColor = '#794b02';
+export const warningTextColor = '#573a08';
